@@ -52,13 +52,37 @@
 		E9403ADC2AC6AD25003A68A8 /* Tracker */ = {
 			isa = PBXGroup;
 			children = (
+				E97F81362AC777C400C78AC6 /* Application */,
+				E97F81372AC777CE00C78AC6 /* ViewControllers */,
+				E97F81382AC777DC00C78AC6 /* Resources */,
+			);
+			path = Tracker;
+			sourceTree = "<group>";
+		};
+		E97F81362AC777C400C78AC6 /* Application */ = {
+			isa = PBXGroup;
+			children = (
 				E9403ADD2AC6AD25003A68A8 /* AppDelegate.swift */,
 				E9403ADF2AC6AD25003A68A8 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		E97F81372AC777CE00C78AC6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
 				E9403AE12AC6AD25003A68A8 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E97F81382AC777DC00C78AC6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				E9403AE62AC6AD29003A68A8 /* Assets.xcassets */,
 				E9403AEB2AC6AD29003A68A8 /* Info.plist */,
 			);
-			path = Tracker;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,7 +293,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3LKWW87KA9;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Tracker/Info.plist;
+				INFOPLIST_FILE = Tracker/Resources/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Tracker;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -303,7 +327,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3LKWW87KA9;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Tracker/Info.plist;
+				INFOPLIST_FILE = Tracker/Resources/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Tracker;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
